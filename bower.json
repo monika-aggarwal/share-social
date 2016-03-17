@@ -1,0 +1,15 @@
+{
+  "name": "share-social",
+  "version":"0.0.1"
+  "description": "provides information sharing on social platforms",
+  "main": "./src/app.js",
+  "moduleType": [],
+  "authors": [
+    "monika-aggarwal"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
