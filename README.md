@@ -43,41 +43,42 @@ $(document).ready(function(){
 # Customization
 ## Configuration Options
 The share button is extremely flexible. As such we provide the ability to pass an array of options for additional configuration. All configuration options are available here:
+```js
 var option = {
         facebook:{
             name: '' , //The name of the article that you want to share.
             link: ‘’ , //the url you'd like to share to Facebook
             picture: '' , //image to be shared to Facebook 
-            caption: ‘’ ,//caption to be shared alongside your link to Facebook 
+            caption: ‘’ , //caption to be shared alongside your link to Facebook 
             description: '' , //text to be shared alongside your link to Facebook
-            message: '' ,     //message to appear when an item is shared
+            message: '' , //message to appear when an item is shared
             enabled: //Is true by default
         },
         googleplus:{
-            url:  ‘’ ,//the url you'd like to share to googleplus
+            url:  ‘’ , //the url you'd like to share to googleplus
             enabled: //Is true by default
         },
         twitter:{
-            url:  ‘’ ,//the url you'd like to share to twitter
-    	    description : '',//the text to be shared on twitter
+            url:  ‘’ , //the url you'd like to share to twitter
+    	    description: '' , //the text to be shared on twitter
             enabled: //Is true by default
         },  
         mail:{
-            title: ’’ ,//the subject of the email
-            description:  ‘’ ,//the body of the email  
+            title: ’’ , //the subject of the email
+            description: ‘’ , //the body of the email  
             enabled: //Is true by default     
         },
         whatsapp:{
-            url:  ‘’ ,//the url to be shared on whatsapp
-            description: ’’ ,//the text to be shared on whatsapp
-	        enabled: //Is true by default
+            url: ‘’ , //the url to be shared on whatsapp
+            description: ’’ , //the text to be shared on whatsapp
+	     enabled: //Is true by default
         },
         sms:{
-            description: ‘’ ,//the text to be shared on sms
+            description: ‘’ , //the text to be shared on sms
             enabled: //Is true by default
         }
 
     };
-
+```
 Styles
 Additionally, you're able to customize the look and feel of the button and animations though CSS. 
