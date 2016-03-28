@@ -2,7 +2,7 @@
   "name": "share-social",
   "version":"0.0.1"
   "description": "provides information sharing on social platforms",
-  "main": ".src/socialsharePlugin.min.js",
+  "main": "src/socialsharePlugin.js",
   "moduleType": [],
   "authors": [
     "monika-aggarwal"
